@@ -51,6 +51,7 @@
         <item name="android:alertDialogStyle">@style/BaseStyle.DialogStyle</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
         <item name="android:listDivider">@android:color/transparent</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
     </style>
 
     <style name="BaseStyle.NoActionBar.NoShadow" parent="android:style/Theme.Holo.Light.DarkActionBar">

@@ -77,7 +77,7 @@ public class MainSettingsFragment extends ActivePreferenceFragment {
 
     @SuppressWarnings("ConstantConditions")
     @Override
-    public void onCreatePreferencesFix(Bundle bundle, String s) {
+    public void onCreatePreferences(Bundle bundle, String s) {
         global_prefs = PreferenceManager.getDefaultSharedPreferences(getContext());
         instance_prefs = ((OvkApplication) getContext().getApplicationContext()).getAccountPreferences();
         Bundle data = getActivity().getIntent().getExtras();
@@ -100,7 +100,7 @@ public class MainSettingsFragment extends ActivePreferenceFragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        setDividerPreferences(DIVIDER_PADDING_CHILD | DIVIDER_CATEGORY_AFTER_LAST | DIVIDER_CATEGORY_BETWEEN);
+        // setDividerPreferences(DIVIDER_PADDING_CHILD | DIVIDER_CATEGORY_AFTER_LAST | DIVIDER_CATEGORY_BETWEEN);
         view.setBackgroundColor(getResources().getColor(R.color.white));
     }
 

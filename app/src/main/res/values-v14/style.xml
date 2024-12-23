@@ -46,7 +46,8 @@
         <item name="android:actionDropDownStyle">@style/ActionBarSpinner</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
     </style>
 
     <style name="BaseStyle.NoActionBar.NoShadow" parent="android:style/Theme.Holo.Light.DarkActionBar">
